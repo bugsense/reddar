@@ -225,7 +225,7 @@ body{
 	background:url(../images/market.png) repeat 0 0;
 	width:530px;
 	height:100px;
-	margin-top: 20px !important;
+	margin-top: 0px !important;
 }
 
 .market:hover{
@@ -237,7 +237,7 @@ body{
 #header-container{
 	background:#f3f1e7 url(../images/bg.png) repeat 0 0;
 	margin-bottom:50px;
-	height: 650px;
+	height: 627px;
 	border-bottom:2px solid #323b41;
 }
 
@@ -297,8 +297,20 @@ h3{font-size: 30px;}
 
 .android {
 	position: absolute;
-	padding: 152px 0 130px 0px;
+	padding: 152px 0 70px 0px;
 	background: url(../images/iphone.png) 0 top no-repeat;
+}
+
+.free {
+    position: absolute;
+    padding-top: 130px;
+    overflow: hidden;
+    background: url(../images/free.png) no-repeat;
+    height: 0;
+    left: 140px;
+    width: 130px;
+    z-index: 9999999999;
+    top: 15px;
 }
 
 .screenshot {
@@ -471,15 +483,15 @@ margin-top: -73px;
 }
 
 footer a{
-    color: #FEF1D8;
+    color: #f1efe5 !important;
     border-bottom: 1px dotted #FEF1D8;
     text-decoration:none;
     font:15px  Helvetica Neue, Arial;
 }
 
 footer a:hover{
-    color: #981D01;
-    border-bottom: 1px dotted #981D01;
+    color: #10a5d0 !important;
+    border-bottom: 1px dotted #10a5d0;
     text-decoration:none;
 }
 
